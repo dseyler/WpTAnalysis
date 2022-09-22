@@ -1,12 +1,12 @@
 void QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0()
 {
 //=========Macro generated from canvas: c2QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0/c2
-//=========  (Fri Sep 16 14:43:25 2022) by ROOT version 6.20/07
+//=========  (Thu Sep 22 14:11:38 2022) by ROOT version 6.20/07
    TCanvas *c2QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0 = new TCanvas("c2QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0", "c2",0,0,600,600);
    gStyle->SetOptStat(0);
    gStyle->SetOptTitle(0);
    c2QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0->SetHighLightColor(2);
-   c2QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0->Range(-0.2048781,-425.5253,1.258537,369.492);
+   c2QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0->Range(-0.2048781,-2055.872,1.258537,578.2613);
    c2QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0->SetFillColor(0);
    c2QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0->SetBorderMode(0);
    c2QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0->SetBorderSize(2);
@@ -22,8 +22,8 @@ void QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0()
    c2QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0->SetFrameBorderMode(0);
    
    TH1F *h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0__304 = new TH1F("h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0__304","h1",80,0,1.2);
-   h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0__304->SetMinimum(-322.173);
-   h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0__304->SetMaximum(321.7909);
+   h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0__304->SetMinimum(-1713.435);
+   h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0__304->SetMaximum(420.2133);
    h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0__304->SetDirectory(0);
    h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0__304->SetStats(0);
    h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0__304->SetLineStyle(0);
@@ -61,13 +61,13 @@ void QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0()
    0.475,
    0.525};
    Double_t Graph_Clone_fy1486[7] = {
-   160.7964,
-   153.0322,
-   184.5097,
-   137.4035,
-   218.5403,
-   256.5038,
-   38.20636};
+   161.4579,
+   159.923,
+   171.4252,
+   148.3323,
+   224.3069,
+   270.533,
+   35.2336};
    Double_t Graph_Clone_fex1486[7] = {
    0,
    0,
@@ -77,13 +77,13 @@ void QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0()
    0,
    0};
    Double_t Graph_Clone_fey1486[7] = {
-   61.50432,
-   55.20162,
-   40.45856,
-   40.05439,
-   39.74862,
-   51.46024,
-   43.22442};
+   61.51888,
+   54.85977,
+   40.69247,
+   40.22317,
+   39.43027,
+   50.90279,
+   43.55846};
    TGraphErrors *gre = new TGraphErrors(7,Graph_Clone_fx1486,Graph_Clone_fy1486,Graph_Clone_fex1486,Graph_Clone_fey1486);
    gre->SetName("Graph_Clone");
    gre->SetTitle("Graph");
@@ -91,8 +91,8 @@ void QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0()
    gre->SetMarkerStyle(20);
    
    TH1F *Graph_Graph_Clone1486 = new TH1F("Graph_Graph_Clone1486","Graph",100,0.195,0.555);
-   Graph_Graph_Clone1486->SetMinimum(-36.31627);
-   Graph_Graph_Clone1486->SetMaximum(339.2622);
+   Graph_Graph_Clone1486->SetMinimum(-41.30092);
+   Graph_Graph_Clone1486->SetMaximum(354.4118);
    Graph_Graph_Clone1486->SetDirectory(0);
    Graph_Graph_Clone1486->SetStats(0);
    Graph_Graph_Clone1486->SetLineStyle(0);
@@ -124,7 +124,7 @@ void QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0()
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetMarkerStyle(20);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetLineColor(2);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetLineWidth(1);
-   pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetChisquare(8.307833);
+   pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetChisquare(9.149995);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetNDF(3);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->GetXaxis()->SetLabelFont(42);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->GetXaxis()->SetLabelOffset(0.007);
@@ -138,14 +138,14 @@ void QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0()
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->GetYaxis()->SetTitleSize(0.06);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->GetYaxis()->SetTitleOffset(1);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->GetYaxis()->SetTitleFont(42);
-   pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetParameter(0,-6486.179);
-   pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetParError(0,2977.633);
+   pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetParameter(0,-6990.577);
+   pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetParError(0,2974.664);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetParLimits(0,0,0);
-   pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetParameter(1,4694.81);
-   pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetParError(1,2282.047);
+   pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetParameter(1,5104.551);
+   pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetParError(1,2277.364);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetParLimits(1,0,0);
-   pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetParameter(2,-644.3461);
-   pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetParError(2,422.9735);
+   pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetParameter(2,-720.5486);
+   pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetParError(2,421.7414);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetParLimits(2,0,0);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487->SetParent(gre);
    gre->GetListOfFunctions()->Add(pol2_mt_corr_neg_bin_18_barrel_WpT_bin01487);
@@ -158,7 +158,7 @@ void QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0()
    pol0_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1488->SetLineColor(25);
    pol0_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1488->SetLineWidth(1);
    pol0_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1488->SetLineStyle(2);
-   pol0_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1488->SetChisquare(14.31109);
+   pol0_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1488->SetChisquare(15.6392);
    pol0_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1488->SetNDF(5);
    pol0_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1488->GetXaxis()->SetLabelFont(42);
    pol0_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1488->GetXaxis()->SetLabelOffset(0.007);
@@ -172,8 +172,8 @@ void QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0()
    pol0_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1488->GetYaxis()->SetTitleSize(0.06);
    pol0_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1488->GetYaxis()->SetTitleOffset(1);
    pol0_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1488->GetYaxis()->SetTitleFont(42);
-   pol0_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1488->SetParameter(0,162.2226);
-   pol0_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1488->SetParError(0,17.93692);
+   pol0_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1488->SetParameter(0,165.7627);
+   pol0_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1488->SetParError(0,17.93034);
    pol0_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1488->SetParLimits(0,0,0);
    pol0_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1488->Draw("L same");
    
@@ -184,7 +184,7 @@ void QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0()
    pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->SetLineColor(46);
    pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->SetLineWidth(1);
    pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->SetLineStyle(2);
-   pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->SetChisquare(13.05265);
+   pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->SetChisquare(14.67268);
    pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->SetNDF(4);
    pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->GetXaxis()->SetLabelFont(42);
    pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->GetXaxis()->SetLabelOffset(0.007);
@@ -198,11 +198,11 @@ void QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0()
    pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->GetYaxis()->SetTitleSize(0.06);
    pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->GetYaxis()->SetTitleOffset(1);
    pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->GetYaxis()->SetTitleFont(42);
-   pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->SetParameter(0,-252.0284);
-   pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->SetParError(0,224.6634);
+   pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->SetParameter(0,-221.1672);
+   pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->SetParError(0,224.9652);
    pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->SetParLimits(0,0,0);
-   pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->SetParameter(1,257.4328);
-   pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->SetParError(1,86.74701);
+   pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->SetParameter(1,249.3138);
+   pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->SetParError(1,86.85683);
    pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->SetParLimits(1,0,0);
    pol1_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1489->Draw("L same");
    
@@ -213,7 +213,7 @@ void QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0()
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetLineColor(9);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetLineWidth(1);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetLineStyle(2);
-   pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetChisquare(8.307833);
+   pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetChisquare(9.149995);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetNDF(3);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->GetXaxis()->SetLabelFont(42);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->GetXaxis()->SetLabelOffset(0.007);
@@ -227,25 +227,25 @@ void QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0()
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->GetYaxis()->SetTitleSize(0.06);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->GetYaxis()->SetTitleOffset(1);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->GetYaxis()->SetTitleFont(42);
-   pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetParameter(0,-6486.179);
-   pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetParError(0,2977.633);
+   pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetParameter(0,-6990.577);
+   pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetParError(0,2974.664);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetParLimits(0,0,0);
-   pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetParameter(1,4694.81);
-   pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetParError(1,2282.047);
+   pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetParameter(1,5104.551);
+   pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetParError(1,2277.364);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetParLimits(1,0,0);
-   pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetParameter(2,-644.3461);
-   pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetParError(2,422.9735);
+   pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetParameter(2,-720.5486);
+   pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetParError(2,421.7414);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->SetParLimits(2,0,0);
    pol2_mt_corr_neg_bin_18_barrel_WpT_bin0_Clone1490->Draw("L same");
    
    Double_t Graph_Clone_fx1488[1] = {
    0.025};
    Double_t Graph_Clone_fy1488[1] = {
-   162.2226};
+   165.7627};
    Double_t Graph_Clone_fex1488[1] = {
    0};
    Double_t Graph_Clone_fey1488[1] = {
-   17.93692};
+   17.93034};
    gre = new TGraphErrors(1,Graph_Clone_fx1488,Graph_Clone_fy1488,Graph_Clone_fex1488,Graph_Clone_fey1488);
    gre->SetName("Graph_Clone");
    gre->SetTitle("Graph");
@@ -255,8 +255,8 @@ void QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0()
    gre->SetMarkerSize(2);
    
    TH1F *Graph_Graph_Clone1488 = new TH1F("Graph_Graph_Clone1488","Graph",100,0,1.125);
-   Graph_Graph_Clone1488->SetMinimum(140.6983);
-   Graph_Graph_Clone1488->SetMaximum(183.7469);
+   Graph_Graph_Clone1488->SetMinimum(144.2463);
+   Graph_Graph_Clone1488->SetMaximum(187.2791);
    Graph_Graph_Clone1488->SetDirectory(0);
    Graph_Graph_Clone1488->SetStats(0);
    Graph_Graph_Clone1488->SetLineStyle(0);
@@ -286,11 +286,11 @@ void QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0()
    Double_t Graph_Clone_fx1489[1] = {
    0.025};
    Double_t Graph_Clone_fy1489[1] = {
-   257.4328};
+   249.3138};
    Double_t Graph_Clone_fex1489[1] = {
    0};
    Double_t Graph_Clone_fey1489[1] = {
-   86.74701};
+   86.85683};
    gre = new TGraphErrors(1,Graph_Clone_fx1489,Graph_Clone_fy1489,Graph_Clone_fex1489,Graph_Clone_fey1489);
    gre->SetName("Graph_Clone");
    gre->SetTitle("Graph");
@@ -300,8 +300,8 @@ void QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0()
    gre->SetMarkerSize(2);
    
    TH1F *Graph_Graph_Clone1489 = new TH1F("Graph_Graph_Clone1489","Graph",100,0,1.125);
-   Graph_Graph_Clone1489->SetMinimum(153.3363);
-   Graph_Graph_Clone1489->SetMaximum(361.5292);
+   Graph_Graph_Clone1489->SetMinimum(145.0856);
+   Graph_Graph_Clone1489->SetMaximum(353.542);
    Graph_Graph_Clone1489->SetDirectory(0);
    Graph_Graph_Clone1489->SetStats(0);
    Graph_Graph_Clone1489->SetLineStyle(0);
@@ -331,11 +331,11 @@ void QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0()
    Double_t Graph_Clone_fx1490[1] = {
    0.025};
    Double_t Graph_Clone_fy1490[1] = {
-   -644.3461};
+   -720.5486};
    Double_t Graph_Clone_fex1490[1] = {
    0};
    Double_t Graph_Clone_fey1490[1] = {
-   422.9735};
+   421.7414};
    gre = new TGraphErrors(1,Graph_Clone_fx1490,Graph_Clone_fy1490,Graph_Clone_fex1490,Graph_Clone_fey1490);
    gre->SetName("Graph_Clone");
    gre->SetTitle("Graph");
@@ -345,8 +345,8 @@ void QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0()
    gre->SetMarkerSize(2);
    
    TH1F *Graph_Graph_Clone1490 = new TH1F("Graph_Graph_Clone1490","Graph",100,0,1.125);
-   Graph_Graph_Clone1490->SetMinimum(-1151.914);
-   Graph_Graph_Clone1490->SetMaximum(-136.7779);
+   Graph_Graph_Clone1490->SetMinimum(-1226.638);
+   Graph_Graph_Clone1490->SetMaximum(-214.4589);
    Graph_Graph_Clone1490->SetDirectory(0);
    Graph_Graph_Clone1490->SetStats(0);
    Graph_Graph_Clone1490->SetLineStyle(0);
@@ -393,8 +393,8 @@ tex->SetNDC();
    tex->Draw();
    
    TH1F *h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0_copy__305 = new TH1F("h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0_copy__305","h1",80,0,1.2);
-   h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0_copy__305->SetMinimum(-322.173);
-   h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0_copy__305->SetMaximum(321.7909);
+   h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0_copy__305->SetMinimum(-1713.435);
+   h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0_copy__305->SetMaximum(420.2133);
    h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0_copy__305->SetDirectory(0);
    h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0_copy__305->SetStats(0);
    h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0_copy__305->SetLineStyle(0);
@@ -466,8 +466,8 @@ tex->SetNDC();
    leg->Draw();
    
    TH1F *h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0_copy__306 = new TH1F("h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0_copy__306","h1",80,0,1.2);
-   h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0_copy__306->SetMinimum(-322.173);
-   h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0_copy__306->SetMaximum(321.7909);
+   h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0_copy__306->SetMinimum(-1713.435);
+   h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0_copy__306->SetMaximum(420.2133);
    h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0_copy__306->SetDirectory(0);
    h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0_copy__306->SetStats(0);
    h1QCDBinContentNorm_mt_corr_neg_bin_18_barrel_WpT_bin0_copy__306->SetLineStyle(0);

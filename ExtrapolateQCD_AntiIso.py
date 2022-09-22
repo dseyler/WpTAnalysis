@@ -133,8 +133,11 @@ def ExpltOneBin(variable, isocenters, bincontents, binerrors, isoSR, mTmin, mTma
         drawoptions.extend(["P same", "L", "P same"])
         legendoptions.extend(["PE", "L", "PE"])
 
-    hist_y_min = 0.5*min(min(bincontents), val_pol0_par1,  val_pol1_par1, val_pol2_par2)
-    hist_y_max = 1.25*max(max(bincontents), val_pol0_par1,  val_pol1_par1, val_pol2_par2)
+    #Minimum and maximum values on y-axis
+    min_val = min(min(bincontents), val_pol0_par1 - err_pol0_par1,  val_pol1_par1 - err_pol1_par1, val_pol2_par2 - err_pol2_par2)
+    max_val = max(max(bincontents), val_pol0_par1 + err_pol0_par1,  val_pol1_par1 + err_pol1_par1, val_pol2_par2 + err_pol2_par2)
+    hist_y_min = min_val -  0.5*abs(min_val)    
+    hist_y_max = max_val + 0.25*abs(max_val)
 
     DrawHistos( h_todraws, labels, 0, 1.2, "Lepton Relative Isolation", hist_y_min, hist_y_max, "Bin Content", "QCDBinContentNorm_"+suffix, dology=False, drawoptions=drawoptions, legendoptions=legendoptions, nMaxDigits=3, legendPos=[0.65, 0.18, 0.88, 0.58], lheader=extraText)
 
@@ -168,7 +171,7 @@ def ExtrapolateQCD(fname, oname, channel, variable, wptbin, etabins, isobins, fn
     isocuts = [0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60, 0.65]
     isocenters = [(isocuts[i] + isocuts[i+1])/2 for i in range(len(isocuts)-1)]
     
-    #isoSR = infile.Get("iso_mean").GetMean()
+    # isoSR = infile.Get("iso_mean").GetMean()
     isoSR = 0.025 # average isolation value in the signal region
 
     for etabin in etabins:

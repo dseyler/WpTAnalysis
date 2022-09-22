@@ -25,6 +25,7 @@ def createCanvasPads():
 
 #Working file
 pathname = os.getcwd()
+#Add "eminus" and "eplus" for electron channels
 leptons = ["muminus", "muplus"]
 for lepton in leptons:
     filename = pathname + "/root/QCD/qcdshape_extrapolated_{}_met_corr_WpT_bin0_{}.root".format(lepton, lepton)
