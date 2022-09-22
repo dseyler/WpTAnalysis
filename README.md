@@ -44,6 +44,13 @@ python ExtrapolateQCD.py
 ```
 would run the extrapolation for the muon plus channel. Change `doMuon` to false would run the eplus channel. Note currently in the electron channel we do the barrel and endcap extrapolation separately.
 
+## QCD Template Fitting
+The 'QCD_temp_fit.py' script is used to fit the QCD template distribution to the extrapolated isolation region. It returns plots for each channel showing the 3 fit parameters as well as the chi-squared value and pull distribution. Run
+```
+python QCD_temp_fit.py
+```
+to create plots showing the template fit for muon channels. Add "eminus" and "eplus" to the leptons list to include electron channels 
+
 ## Make DataCards
 `MakeCards.py` script is used to generate the datacards needed for combine. It takes the data and MC templates from the 1st step, and the QCD extrapolated templates from the 2nd step, and add some systematic uncertainties. 
 
